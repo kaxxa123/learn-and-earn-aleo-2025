@@ -1,0 +1,19 @@
+{
+  "program": "learn_and_earn_token_kaxxa123.aleo",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "network": "testnet",
+  "dependencies": [
+    {
+      "name": "credits.aleo",
+      "location": "network",
+      "network": "testnet"
+    },
+    {
+      "name": "token_registry.aleo",
+      "location": "network",
+      "network": "testnet"
+    }
+  ]
+}
