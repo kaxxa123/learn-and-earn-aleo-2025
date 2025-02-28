@@ -1,5 +1,5 @@
 
-program learn_and_earn_auction.aleo {
+program learn_and_earn_auction_kaxxa123.aleo {
     // A bid in an auction.
     // - `owner`     : The address of the account that owns the record associated with this bid.
     //                 This is separate from the address of the account that placed the bid.
