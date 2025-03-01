@@ -17,8 +17,6 @@ leo account sign \
 --private-key "${NODEPK}" \
 --message "true"
 
-# sign14jr3g55sa3w7q2v2fn94f3l7rz4g5s04gggz6j8g2q79snlzp5qdzny2s94nwta984xkjwkt3vpd57fzc07lg7htp8hz46545npavq9affm89ralg852j7t36963yvy6vzxfrpfwlzuey8l4uz2uzv49zylka35uxllr6vasemkjy4am6h45htredkklh7gpzrjsvmvk0ylsy7azmsp
-
 snarkos  developer  deploy  learn_and_earn_auction_kaxxa123.aleo  \
     --private-key "${NODEPK}" \
     --path "./build/" \
