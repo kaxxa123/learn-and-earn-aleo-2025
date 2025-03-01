@@ -41,7 +41,10 @@ snarkos  developer  execute  learn_and_earn_auction_kaxxa123.aleo  place_bid  \
 
 export RECORD_ENC="record1qyqsqpzsph9y8wg7jsjqr6gs386xezq4294m648nw8tslrwle2fpt7gqqvrxy6tyv3jhyscqqgpqpeam59fmhuu4s5mdce233nqzkc3r05t6l5j0x4w058uv08tdyhcq7tp7cwxdg09uegc3zsma64ktt22kznuxfr7rgty7qcpwzvmk6sysvctdda6kuaprqqpqzqzq0wcm9agp2rx6jjq7cys2e5lmytufhm0xvxd44g9td2hsrr4sqcykju6lwa5kumn9wg3sqqspqqahepkawhtv3w8996nsmpys9v8hztx0fvzulgq63cpzjkf8lz6sgmgg7cjz6vht436g65k73ncz3d5ug2sftf9w37k26szkjdwpq3cr7tetfr"
 
-aleo_decrypt record --vk ${NODEVK} --cipher ${RECORD_ENC}
+snarkos developer decrypt \
+    --network 1 \
+    --view-key ${NODEVK} \
+    --ciphertext ${RECORD_ENC}
 
 # {
 #   owner: aleo1kmzwjeprmskjvhyjtmevq9fkanda57fn0af9fpe7830psw59dvrskmmdaj.private,
@@ -65,7 +68,10 @@ snarkos  developer  execute  learn_and_earn_auction_kaxxa123.aleo  finish  \
 
 export RECORD_ENC="record1qyqsp9kkr8zukfra6fmgzzwjz8s84uquz7em6lzkqnchqrp3vcarydggqvrxy6tyv3jhyscqqgpqqmmk884x8chzqjv49yxu797vv2q36s7n26pg2y38z2dx9auc6qgz3w4ltnz2429nm6mqxvwyr8usrqy230k24agvk7ec4z0cspahrg8svctdda6kuaprqqpqzqzeq3t8cvklfg8g7utfq38qal9wh6cjqzu5zanle5v242wwc9ajpvykju6lwa5kumn9wg3sqqspqzkwxj6ner4femlakujkra0hh2rf4d6cfucnf929v6nelve4hs0svh869nw857ap0zdpr38a6pvfzfv53530e5ku9crsm2egygpy6lgjfxcp4g"
 
-aleo_decrypt record --vk ${NODE1VK} --cipher ${RECORD_ENC}
+snarkos developer decrypt \
+    --network 1 \
+    --view-key ${NODE1VK} \
+    --ciphertext ${RECORD_ENC}
 ```
 
 
