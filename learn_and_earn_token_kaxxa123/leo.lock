@@ -11,3 +11,10 @@ network = "testnet"
 location = "network"
 checksum = "d799ce57446bce0fc761722244c03f2c462f8f4db945e804a834e8409db5c203"
 dependencies = ["credits.aleo"]
+
+[[package]]
+name = "official_oracle_v2.aleo"
+network = "testnet"
+location = "network"
+checksum = "ed144cd6f52a37f3f5817adf6364890e786e9b0179323cf3f0cc26182b1944ba"
+dependencies = []

@@ -1,19 +1,26 @@
 {
-  "program": "learn_and_earn_token_kaxxa123.aleo",
+  "program": "learn_and_earn_token_3515.aleo",
   "version": "0.1.0",
   "description": "",
   "license": "MIT",
-  "network": "testnet",
   "dependencies": [
     {
       "name": "credits.aleo",
       "location": "network",
-      "network": "testnet"
+      "network": "testnet",
+      "path": null
     },
     {
       "name": "token_registry.aleo",
       "location": "network",
-      "network": "testnet"
+      "network": "testnet",
+      "path": null
+    },
+    {
+      "name": "official_oracle_v2.aleo",
+      "location": "network",
+      "network": "testnet",
+      "path": null
     }
   ]
 }
