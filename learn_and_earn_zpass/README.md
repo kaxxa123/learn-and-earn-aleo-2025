@@ -6,4 +6,4 @@ In this workshop we deploy our own zpass issuing/verification [program](./zpass_
 
 Next we implement an react app for issuing a [zpass](./zpass-interface/).
 
-For a list of transaction ids executinged against `zpass_merkle_kaxxa123.aleo` refer to this [README.md](./zpass_merkle_kaxxa123/README.md).
+For a list of transaction ids executed against `zpass_merkle_kaxxa123.aleo` refer to this [README.md](./zpass_merkle_kaxxa123/README.md).
