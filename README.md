@@ -3,6 +3,7 @@
 * [Workshop 1](./learn_and_earn_auction/)
 * [Workshop 2](./learn_and_earn_token_kaxxa123/)
 * [Workshop 3](./learn_and_earn_wallet/)
+* [Workshop 4](./learn_and_earn_zpass/)
 
 
 
