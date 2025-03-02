@@ -1,4 +1,6 @@
-# Auction Command Dump
+# Workshop 1 - Auction 
+
+## Command Dump
 
 ```BASH
 # AUCTIONEER

@@ -1,4 +1,4 @@
-# Compliant Token Challenge
+# Workshop 2 - Compliant Token Challenge
 
 Check challenge details [here](https://github.com/demox-labs/aleo-standard-programs/tree/workshop-compliant-token/compliant_token).
 
