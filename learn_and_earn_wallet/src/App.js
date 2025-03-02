@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { useAccount, useConnect, useDisconnect, useSelect, WalletProvider } from "aleo-hooks";
+import { useAccount, useConnect, useDisconnect, useSelect, useRecords, WalletProvider } from "aleo-hooks";
 
 import WalletModal from "./components/WalletModal";
 
@@ -12,12 +12,12 @@ import {
 } from 'aleo-adapters';
 import "./App.css";
 
-function connectWalletButton() {
+function ConnectWalletButton() {
   const account = useAccount();
   const { connect, address, connected, connecting, error } = useConnect();
-  const { diconnect } = useDisconnect();
+  const { disconnect } = useDisconnect();
   const { select } = useSelect();
-  const { isModalOpen, setIsModalOpen } = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleWalletSelect = (walletId) => {
     const walletAdapterMap = {
@@ -59,12 +59,26 @@ function connectWalletButton() {
       <WalletModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        onSelect={handleWalletSelect}
+        onWalletSelect={handleWalletSelect}
       />
     </>
 
   );
 
+}
+
+function Header() {
+  return (
+    <header className="app-header">
+      <div className="logo">
+        Aleo App
+      </div>
+      <div className="nav-links">
+        {/* Add navigation links here */}
+      </div>
+      <ConnectWalletButton />
+    </header>
+  );
 }
 
 function App() {
@@ -94,11 +108,10 @@ function App() {
   return (
     <WalletProvider wallets={wallets} autoConnect>
       <div className="App">
-        Some content...
+        <Header />
       </div>
     </WalletProvider>
   );
 }
-
 
 export default App;
