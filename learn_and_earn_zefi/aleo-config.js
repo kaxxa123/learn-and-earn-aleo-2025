@@ -6,14 +6,12 @@ export default {
   mainnet: {},
   networks: {
     testnet: {
-      endpoint: 'http://127.0.0.1:3030',
-      accounts: [
-        process.env.PRIVATE_KEY,
-      ],
+      endpoint: 'https://api.explorer.provable.com/v1',
+      accounts: [process.env.PRIVATE_KEY],
       priorityFee: 0.01,
     },
     mainnet: {
-      endpoint: 'https://api.explorer.aleo.org/v1',
+      endpoint: 'https://api.explorer.provable.com/v1',
       accounts: [process.env.PRIVATE_KEY],
       priorityFee: 0.001
     }
